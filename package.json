@@ -1,0 +1,19 @@
+{
+  "name": "sneakersmart",
+  "version": "1.0.0",
+  "description": "sneaker bot",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nennii-CallyNtete/SneakerSmart.git"
+  },
+  "author": "Nennii Cally-Ntete",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nennii-CallyNtete/SneakerSmart/issues"
+  },
+  "homepage": "https://github.com/Nennii-CallyNtete/SneakerSmart#readme"
+}

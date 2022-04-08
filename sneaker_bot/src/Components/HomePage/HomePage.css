@@ -1,0 +1,25 @@
+body{
+    display: -ms-flexbox;
+    justify-content: center;
+    align-content: center;
+    background: url(HomePageBkg2.jpg) no-repeat center center fixed;
+    background-size: cover;
+    margin: auto 0;
+}
+
+.SearchBar{
+    position: absolute;
+    top: 20vh;
+    left: 40vw;
+}
+
+.ProfileLogo{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 40px;
+    margin: auto 0;
+    position: absolute;
+    top: 75vh;
+}
