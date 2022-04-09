@@ -7,6 +7,7 @@ export default class SearchBar extends React.Component {
         super(props);
         this.state = {
         searchTerm: '',
+        recents: []
         };
         this.handleChange = this.handleChange.bind(this);
         this.handleSubmit = this.handleSubmit.bind(this);
@@ -19,6 +20,8 @@ export default class SearchBar extends React.Component {
     handleSubmit(event) {
         event.preventDefault();
         this.props.onSearch(this.state.searchTerm);
+        let search = this.state.searchTerm;
+        this.setState({recents: [...this.state.recents, search]});
     }
     
     render() {
