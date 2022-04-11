@@ -4,6 +4,7 @@ import Profile from '../Profile/Profile';
 import SearchBar from '../ProductSearch/SearchBar';
 import { InfoCard } from '../InfoCard/InfoCard';
 
+
 export const HomePage = () => {
     return (
         <div>
