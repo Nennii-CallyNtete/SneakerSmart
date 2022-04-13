@@ -20,6 +20,14 @@ body{
     left: 30vw;
 }
 
+.InfoCards{
+    display: inline-flex;
+}
+
+.InfoCards > div{
+    margin: 10px;
+}
+
 .ProfileLogo{
     display: flex;
     flex-direction: row;

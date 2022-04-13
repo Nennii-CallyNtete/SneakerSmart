@@ -13,13 +13,17 @@ export const HomePage = () => {
             </div>
             <section className='RecentSearches'>
                 <h2>Recent Searches</h2>
-                <div>
+                <div className='InfoCards'>
+                    <InfoCard />
+                </div>
+                <h2>Suggested For You</h2>
+                <div className='InfoCards'>
                     <InfoCard />
                 </div>
             </section>
-            <div className='ProfileLogo'>
+            {/* <div className='ProfileLogo'>
                 <Profile />
-            </div>
+            </div> */}
         </div>
     );
 }
