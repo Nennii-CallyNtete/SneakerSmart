@@ -1,11 +1,15 @@
 import React from 'react';
 import style from './HomePage.css';
-import Profile from '../Profile/Profile';
+//import Profile from '../Profile/Profile';
 import SearchBar from '../ProductSearch/SearchBar';
 import { InfoCard } from '../InfoCard/InfoCard';
 
 
-export const HomePage = () => {
+export default class HomePage extends React.Component {
+//     constructor(props) {
+//     super(props);
+// }
+render() {
     return (
         <div>
             <div className='SearchBar'>
@@ -26,4 +30,5 @@ export const HomePage = () => {
             </div> */}
         </div>
     );
+}
 }
